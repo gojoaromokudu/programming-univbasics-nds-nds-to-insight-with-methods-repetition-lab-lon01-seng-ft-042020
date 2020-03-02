@@ -29,7 +29,11 @@ def list_of_directors(source)
   pp source
   puts source[0][:name]
   names = []
+ person_index = 0 
+ while person_index < source.length
   names << source[0][:name]
+person_index += 1
+end
   names
 end
 
