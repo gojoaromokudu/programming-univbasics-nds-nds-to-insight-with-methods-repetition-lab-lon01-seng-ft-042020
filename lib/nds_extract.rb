@@ -48,8 +48,6 @@ def total_gross(source)
   # return the total
   
   big_total = 0 
-#  puts list_of_directors(source)[0]
-# puts directors_totals(source)["Stephen Spielberg"]
   director_array_index = 0
   while director_array_index < list_of_directors(source).length do
     puts directors_totals(source)[list_of_directors(source)[director_array_index]]
