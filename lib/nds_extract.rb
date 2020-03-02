@@ -47,7 +47,7 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  big_total = 0 
+ # big_total = 0 
 #  puts list_of_directors(source)[0]
 # puts directors_totals(source)["Stephen Spielberg"]
   director_array_index = 0
@@ -55,7 +55,7 @@ def total_gross(source)
     puts directors_totals(source)[list_of_directors(source)[director_array_index]]
     director_array_index += 1 
   end
-  big_total
+ # big_total
 end
 
 
