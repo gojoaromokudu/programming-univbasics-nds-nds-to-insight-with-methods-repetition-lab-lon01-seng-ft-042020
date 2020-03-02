@@ -29,6 +29,8 @@ def list_of_directors(source)
   pp source
   puts source[0][:name]
   names = []
+  names << source[0][:name]
+  names
 end
 
 def total_gross(source)
