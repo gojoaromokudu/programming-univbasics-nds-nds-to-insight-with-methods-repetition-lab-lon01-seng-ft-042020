@@ -50,6 +50,7 @@ def total_gross(source)
   big_total = 0 
   puts list_of_directors(source)[0]
   puts directors_totals(source)["Stephen Spielberg"]
+  puts directors_totals(source)[list_of_directors(source)[0]]
   big_total
 end
 
