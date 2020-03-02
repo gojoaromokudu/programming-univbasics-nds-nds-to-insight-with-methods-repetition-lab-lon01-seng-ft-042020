@@ -47,9 +47,9 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   
-  big total = 0 
+  big_total = 0 
   puts list_of_directors(0)
-  big total
+  big_total
 end
 
 
