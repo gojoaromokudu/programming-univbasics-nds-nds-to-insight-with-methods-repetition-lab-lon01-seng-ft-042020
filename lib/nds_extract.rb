@@ -48,7 +48,7 @@ def total_gross(source)
   # return the total
   
   big_total = 0 
-  puts list_of_directors(0)
+  puts list_of_directors(source)[0]
   big_total
 end
 
